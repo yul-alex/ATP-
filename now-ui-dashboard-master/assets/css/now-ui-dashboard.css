@@ -1938,7 +1938,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial;
 }
 
 h1,
@@ -2013,7 +2013,19 @@ h6,
   font-size: 1em;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: orangered;
+}
+
+.h7 {
+  font-size: 1.714em;
+  line-height: 1.45em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+.h8 {
+  font-size: 1.914em;
+
+  font-weight: 800;
 }
 
 p.description {
@@ -2135,8 +2147,13 @@ a.text-gray:hover {
 }
 
 body {
-  color: orangered;
   font-size: 16px;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+body2 {
+  font-size: 18px;
   font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
