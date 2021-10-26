@@ -3187,10 +3187,23 @@ a[data-toggle='collapse'][aria-expanded='true'] .caret,
 .alert.alert-with-icon {
   padding-left: 65px;
 }
-
+.box img {
+  width: 100%;
+  height: auto;
+}
+@supports (object-fit: cover) {
+  .box img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
 img {
   max-width: 100%;
   border-radius: 0.1875rem;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .img-raised {
